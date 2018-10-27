@@ -1,0 +1,55 @@
+/*
+* From start to end ----------------------------------------------
+* 
+*/
+
+// Padding xy
+@for $padding from $start through $end {
+  .p#{$padding} {
+    padding: $padding+px !important;
+  }
+}
+
+// Padding x
+@for $padding from $start through $end {
+  .px#{$padding} {
+    padding-top: $padding+px !important;
+    padding-bottom: $padding+px !important;
+  }
+}
+
+// Padding y
+@for $padding from $start through $end {
+  .py#{$padding} {
+    padding-left: $padding+px !important;
+    padding-right: $padding+px !important;
+  }
+}
+
+// Padding left
+@for $padding from $start through $end {
+  .pl#{$padding} {
+    padding-left: $padding+px !important;
+  }
+}
+
+// Padding right
+@for $padding from $start through $end {
+  .pr#{$padding} {
+    padding-right: $padding+px !important;
+  }
+}
+
+// Padding top
+@for $padding from $start through $end {
+  .pt#{$padding} {
+    padding-top: $padding+px !important;
+  }
+}
+
+// Padding bottom
+@for $padding from $start through $end {
+  .pb#{$padding} {
+    padding-bottom: $padding+px !important;
+  }
+}

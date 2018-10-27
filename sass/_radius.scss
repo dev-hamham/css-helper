@@ -1,0 +1,16 @@
+/*
+* From start to end ----------------------------------------------
+* 
+*/
+
+// Border radius xy
+@for $radius from $start through $end {
+  .r#{$radius} {
+    border-radius: $radius+px !important;
+  }
+}
+
+// border radius circle
+.rc {
+  border-radius: 50% !important;
+}

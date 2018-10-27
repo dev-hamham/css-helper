@@ -1,0 +1,39 @@
+{
+  "name": "uulgie",
+  "description": "Utilities css for padding margin and border radius",
+  "version": "1.0.0",
+  "homepage": "https://github.com/uulgie/uulgie",
+  "author": {
+    "name": "Mohamed Hamham",
+    "email": "uulgie@gmail.com",
+    "website": "http://uulgie.net/",
+    "facebook": "https://web.facebook.com/uulgie"
+  },
+  "contributors": [
+    "Mohamed Hamham (https://web.facebook.com/uulgie)"
+  ],
+  "repository": "uulgie/uulgie",
+  "bugs": {
+    "url": "https://github.com/uulgie/uulgie/issues"
+  },
+  "license": "MIT",
+  "main": "sass/uulgie.scss",
+  "keywords": [
+    "Margin",
+    "Padding",
+    "Border-radius"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "bootstrap",
+        "materializecss"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+/*
+* From start to end ----------------------------------------------
+* 
+*/
+
+// Margin xy
+@for $margin from $start through $end {
+  .m#{$margin} {
+    margin: $margin+px !important;
+  }
+}
+
+// Margin x
+@for $margin from $start through $end {
+  .mx#{$margin} {
+    margin-top: $margin+px !important;
+    margin-bottom: $margin+px !important;
+  }
+}
+
+// Margin y
+@for $margin from $start through $end {
+  .my#{$margin} {
+    margin-left: $margin+px !important;
+    margin-right: $margin+px !important;
+  }
+}
+
+// Margin left
+@for $margin from $start through $end {
+  .ml#{$margin} {
+    margin-left: $margin+px !important;
+  }
+}
+
+// Margin right
+@for $margin from $start through $end {
+  .mr#{$margin} {
+    margin-right: $margin+px !important;
+  }
+}
+
+// Margin top
+@for $margin from $start through $end {
+  .mt#{$margin} {
+    margin-top: $margin+px !important;
+  }
+}
+
+// Margin bottom
+@for $margin from $start through $end {
+  .mb#{$margin} {
+    margin-bottom: $margin+px !important;
+  }
+}
