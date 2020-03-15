@@ -61,9 +61,9 @@ Example
 
 ## 🇲🇦 Author
 
-* [Facebook Profile](https://web.facebook.com/uulgie)
-* [GitHub Profile](https://github.com/uulgie)
-* [LinkedIn Profile](https://www.linkedin.com/in/uulgie/)
+* [Facebook Profile](https://web.facebook.com/dev.hamham)
+* [GitHub Profile](https://github.com/dev-hamham)
+* [LinkedIn Profile](https://www.linkedin.com/in/dev.hamham/)
 
 
 ## License
